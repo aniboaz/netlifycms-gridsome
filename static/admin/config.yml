@@ -21,3 +21,8 @@ collections:
       - {label: "Cover Image", name: "cover_image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: boazz
+    api_key: 327383831727733
